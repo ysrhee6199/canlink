@@ -276,7 +276,7 @@ void draw_detections(image im, detection *dets, int num, float thresh, char **na
 
          
 
-        if(class >= 0 && (interesting_class == NULL || strcmp(interesting_class, names[class])==0))
+        if(class >= 0 )
 	{
 	    int width = im.h * .006;
 	    //can_write
